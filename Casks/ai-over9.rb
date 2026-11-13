@@ -15,7 +15,7 @@ cask "ai-over9" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AI Over9.app"
 
@@ -30,8 +30,7 @@ cask "ai-over9" do
 
   caveats <<~EOS
     AI Over9 is signed by its author but not notarized by Apple yet. If macOS refuses to open it the first time,
-    right-click AI Over9 in Applications › Open, or install with:
-      brew install --cask --no-quarantine denygame/tap/ai-over9
+    right-click AI Over9 in Applications › Open (once).
     The optional fan helper and the agent hooks are installed from inside the app, never by Homebrew.
   EOS
 end
