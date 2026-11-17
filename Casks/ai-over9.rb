@@ -1,7 +1,7 @@
 # Homebrew cask for AI Over9 (tap: denygame/homebrew-tap). Updated by scripts/publish-cask.sh after each release.
 cask "ai-over9" do
-  version "0.9.18"
-  sha256 "fb1d9f45041a73cf783a4dae08e46289c904c9943b2ce01ade64bf4240731ebd"
+  version "0.9.19"
+  sha256 "b4b8420144626d2d5781575b8082d40543b376b9db33f1cf94e7e7fe7c5fb3c6"
 
   url "https://github.com/denygame/ai-over9/releases/download/v#{version}/AIOver9-#{version}-macos-arm64.dmg"
   name "AI Over9"
